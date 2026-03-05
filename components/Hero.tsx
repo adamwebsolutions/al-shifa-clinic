@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Hero() {
@@ -34,8 +36,6 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 text-white font-semibold px-6 py-3.5 rounded-xl text-base transition-all shadow-lg hover:shadow-xl"
                 style={{ backgroundColor: "#1B3A6B" }}
-                onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#0f2340")}
-                onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#1B3A6B")}
               >
                 📅 Book Appointment
               </a>

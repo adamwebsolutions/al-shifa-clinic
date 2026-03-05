@@ -1,3 +1,5 @@
+"use client";
+
 const credentials = [
   { icon: "🎓", label: "MBBS", detail: "Dow University of Health Sciences" },
   { icon: "🏆", label: "FCPS", detail: "College of Physicians & Surgeons Pakistan" },
@@ -97,8 +99,6 @@ export default function DoctorProfile() {
                 rel="noopener noreferrer"
                 className="flex-1 text-center text-white font-semibold py-3 rounded-xl text-sm transition-colors"
                 style={{ backgroundColor: "#1B3A6B" }}
-                onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#0f2340")}
-                onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#1B3A6B")}
               >
                 Book a Consultation
               </a>

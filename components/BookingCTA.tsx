@@ -1,3 +1,5 @@
+"use client";
+
 export default function BookingCTA() {
   return (
     <section className="py-20" style={{ backgroundColor: "#1B3A6B" }}>
