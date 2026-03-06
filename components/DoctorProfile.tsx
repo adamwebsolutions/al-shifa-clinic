@@ -20,7 +20,7 @@ export default function DoctorProfile() {
           <h2 className="text-3xl sm:text-4xl font-bold" style={{ color: "#1B3A6B" }}>
             Dr. Ahmed Raza
           </h2>
-          <p className="text-gray-500 mt-2">MBBS, FCPS — General Practice &amp; Family Medicine</p>
+          <p className="text-gray-700 mt-2">MBBS, FCPS — General Practice &amp; Family Medicine</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -39,7 +39,7 @@ export default function DoctorProfile() {
                 👨‍⚕️
               </div>
               <div className="font-bold text-xl" style={{ color: "#1B3A6B" }}>Dr. Ahmed Raza</div>
-              <div className="text-gray-500 text-sm">MBBS, FCPS</div>
+              <div className="text-gray-700 text-sm">MBBS, FCPS</div>
             </div>
 
             {/* Google Reviews Placeholder */}
@@ -106,7 +106,7 @@ export default function DoctorProfile() {
                 href="https://wa.me/923000000000"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 text-center bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-xl text-sm transition-colors"
+                className="flex-1 text-center bg-green-700 hover:bg-green-800 text-white font-semibold py-3 rounded-xl text-sm transition-colors"
               >
                 WhatsApp Dr. Raza
               </a>

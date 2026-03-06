@@ -47,7 +47,7 @@ export default function Header() {
               href="https://wa.me/923000000000"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+              className="flex items-center gap-1.5 bg-green-700 hover:bg-green-800 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
               aria-label="Chat on WhatsApp"
             >
               <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
@@ -72,7 +72,7 @@ export default function Header() {
 
             {/* Hamburger */}
             <button
-              className="md:hidden p-2 text-gray-500 rounded-md"
+              className="md:hidden p-2 text-gray-700 rounded-md"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Toggle menu"
             >

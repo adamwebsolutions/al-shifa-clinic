@@ -49,7 +49,7 @@ export default function Services() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4" style={{ color: "#1B3A6B" }}>
             Comprehensive Care for<br className="hidden sm:block" /> Your Whole Family
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto text-base">
+          <p className="text-gray-700 max-w-xl mx-auto text-base">
             From routine consultations to preventive health — all under one trusted roof in DHA Phase 5, Lahore.
           </p>
         </div>
@@ -65,10 +65,10 @@ export default function Services() {
               <h3 className="text-lg font-bold mb-2 group-hover:text-blue-800 transition-colors" style={{ color: "#1B3A6B" }}>
                 {service.title}
               </h3>
-              <p className="text-gray-500 text-sm leading-relaxed mb-4">{service.description}</p>
+              <p className="text-gray-700 text-sm leading-relaxed mb-4">{service.description}</p>
               <ul className="space-y-1.5">
                 {service.features.map((f) => (
-                  <li key={f} className="flex items-center gap-2 text-xs text-gray-500">
+                  <li key={f} className="flex items-center gap-2 text-xs text-gray-700">
                     <span className="text-green-500 flex-shrink-0">✓</span>
                     {f}
                   </li>
@@ -93,7 +93,7 @@ export default function Services() {
               href="https://wa.me/923000000000"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-2.5 px-5 rounded-xl text-sm transition-colors"
+              className="mt-6 inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-800 text-white font-semibold py-2.5 px-5 rounded-xl text-sm transition-colors"
             >
               WhatsApp Us
             </a>

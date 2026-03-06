@@ -47,7 +47,7 @@ export default function Testimonials() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4" style={{ color: "#1B3A6B" }}>
             What Our Patients Say
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto">
+          <p className="text-gray-700 max-w-xl mx-auto">
             Hundreds of families trust Al-Shifa Clinic for their healthcare needs.
           </p>
         </div>

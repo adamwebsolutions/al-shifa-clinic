@@ -25,7 +25,7 @@ export default function ContactForm() {
             <h2 className="text-3xl font-bold mb-4" style={{ color: "#1B3A6B" }}>
               Visit Al-Shifa Clinic
             </h2>
-            <p className="text-gray-500 mb-8">
+            <p className="text-gray-700 mb-8">
               Located in DHA Phase 5, Lahore. Walk-ins welcome. WhatsApp for same-day availability.
             </p>
 
@@ -61,7 +61,7 @@ export default function ContactForm() {
                 href="https://maps.google.com/?q=DHA+Phase+5+Lahore"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 text-xs text-blue-500 hover:text-blue-700 underline"
+                className="mt-3 text-xs text-blue-700 hover:text-blue-700 underline"
               >
                 Open in Google Maps →
               </a>
@@ -76,7 +76,7 @@ export default function ContactForm() {
                 <h3 className="text-xl font-bold mb-2" style={{ color: "#1B3A6B" }}>
                   Message Received!
                 </h3>
-                <p className="text-gray-500 text-sm">
+                <p className="text-gray-700 text-sm">
                   We will get back to you on WhatsApp shortly. Thank you!
                 </p>
               </div>
@@ -145,7 +145,7 @@ export default function ContactForm() {
 
                 <p className="text-xs text-gray-600 mt-4 text-center">
                   Or WhatsApp directly:{" "}
-                  <a href="https://wa.me/923000000000" className="text-green-600 font-semibold">
+                  <a href="https://wa.me/923000000000" className="text-green-700 font-semibold">
                     0300-0000000
                   </a>
                 </p>
