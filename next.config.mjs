@@ -5,15 +5,19 @@ const nextConfig = {
   // Gzip compress all responses
   compress: true,
 
-  // Remove X-Powered-By header (minor security hygiene)
+  // Remove X-Powered-By header
   poweredByHeader: false,
 
-  // CSS is minified by Next.js/SWC in production by default.
-  // swcMinify is always-on in Next.js 13+ — no flag needed.
-
-  // Modern image formats
+  // Modern image formats — avif first (smaller), webp fallback
   images: {
     formats: ["image/avif", "image/webp"],
+  },
+
+  experimental: {
+    // Critical CSS inlining via critters.
+    // Extracts above-fold CSS and inlines it in <head>,
+    // deferring the full stylesheet load — improves FCP on mobile.
+    optimizeCss: true,
   },
 };
 

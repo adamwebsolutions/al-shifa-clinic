@@ -1,10 +1,9 @@
-"use client";
 
 import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section id="home" className="bg-gradient-to-br from-slate-50 to-blue-50 pt-16 pb-20">
+    <section id="home" className="bg-gradient-to-br from-slate-50 to-blue-50 pt-16 pb-20" {...({ fetchPriority: "high", loading: "eager" } as Record<string,string>)}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
 

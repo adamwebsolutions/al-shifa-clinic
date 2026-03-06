@@ -1,4 +1,3 @@
-"use client";
 
 const credentials = [
   { icon: "🎓", label: "MBBS", detail: "Dow University of Health Sciences" },
