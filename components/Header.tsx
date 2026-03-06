@@ -23,7 +23,7 @@ export default function Header() {
               <div className="font-bold text-base" style={{ color: "#1B3A6B" }}>
                 Al-Shifa Family Clinic
               </div>
-              <div className="text-xs text-gray-400">DHA Phase 5, Lahore</div>
+              <div className="text-xs text-gray-600">DHA Phase 5, Lahore</div>
             </div>
           </Link>
 

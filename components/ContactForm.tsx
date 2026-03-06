@@ -43,7 +43,7 @@ export default function ContactForm() {
                 <div key={label} className="flex items-start gap-3">
                   <div className="text-xl flex-shrink-0 mt-0.5">{icon}</div>
                   <div>
-                    <div className="text-xs text-gray-400 font-medium">{label}</div>
+                    <div className="text-xs text-gray-600 font-medium">{label}</div>
                     <div className="text-gray-700 text-sm font-medium">{value}</div>
                   </div>
                 </div>
@@ -55,8 +55,8 @@ export default function ContactForm() {
               className="w-full h-52 rounded-2xl flex flex-col items-center justify-center border-2 border-dashed border-gray-200 bg-gray-50"
             >
               <div className="text-3xl mb-2">🗺️</div>
-              <div className="text-sm text-gray-400 font-medium">Google Maps Embed</div>
-              <div className="text-xs text-gray-300 mt-1">DHA Phase 5, Lahore</div>
+              <div className="text-sm text-gray-600 font-medium">Google Maps Embed</div>
+              <div className="text-xs text-gray-600 mt-1">DHA Phase 5, Lahore</div>
               <a
                 href="https://maps.google.com/?q=DHA+Phase+5+Lahore"
                 target="_blank"
@@ -85,7 +85,7 @@ export default function ContactForm() {
                 <h3 className="text-xl font-bold mb-1" style={{ color: "#1B3A6B" }}>
                   Send a Message
                 </h3>
-                <p className="text-gray-400 text-sm mb-6">
+                <p className="text-gray-600 text-sm mb-6">
                   We typically respond within 2 hours during clinic hours.
                 </p>
 
@@ -143,7 +143,7 @@ export default function ContactForm() {
                   </button>
                 </form>
 
-                <p className="text-xs text-gray-400 mt-4 text-center">
+                <p className="text-xs text-gray-600 mt-4 text-center">
                   Or WhatsApp directly:{" "}
                   <a href="https://wa.me/923000000000" className="text-green-600 font-semibold">
                     0300-0000000

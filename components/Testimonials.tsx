@@ -69,7 +69,7 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <div className="font-semibold text-sm text-gray-800">{t.name}</div>
-                  <div className="text-xs text-gray-400">{t.location} · {t.date}</div>
+                  <div className="text-xs text-gray-600">{t.location} · {t.date}</div>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-1.5 mt-1">
                 <StarRating count={5} />
                 <span className="text-sm text-gray-600 font-semibold">5.0</span>
-                <span className="text-xs text-gray-400">· Google Reviews badge placeholder</span>
+                <span className="text-xs text-gray-600">· Google Reviews badge placeholder</span>
               </div>
             </div>
             <a

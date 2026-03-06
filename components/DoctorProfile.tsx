@@ -54,7 +54,7 @@ export default function DoctorProfile() {
                   ))}
                 </div>
                 <div className="text-sm font-semibold text-gray-800">5.0 — Google Reviews</div>
-                <div className="text-xs text-gray-400">Google Reviews badge placeholder</div>
+                <div className="text-xs text-gray-600">Google Reviews badge placeholder</div>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function DoctorProfile() {
                 <div key={label} className="bg-white border border-gray-100 rounded-xl p-4">
                   <div className="text-2xl mb-2">{icon}</div>
                   <div className="font-bold text-sm" style={{ color: "#1B3A6B" }}>{label}</div>
-                  <div className="text-xs text-gray-400 mt-0.5 leading-tight">{detail}</div>
+                  <div className="text-xs text-gray-600 mt-0.5 leading-tight">{detail}</div>
                 </div>
               ))}
             </div>

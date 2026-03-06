@@ -82,7 +82,7 @@ export default function Hero() {
                 >
                   👨‍⚕️
                 </div>
-                <div className="text-sm text-gray-400">Doctor photo</div>
+                <div className="text-sm text-gray-600">Doctor photo</div>
               </div>
 
               {/* Card Footer */}
