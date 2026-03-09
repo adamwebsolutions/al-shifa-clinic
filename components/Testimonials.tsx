@@ -55,9 +55,9 @@ export default function Testimonials() {
         {/* Testimonial Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           {testimonials.map((t) => (
-            <div key={t.name} className="bg-slate-50 border border-gray-100 rounded-2xl p-6 flex flex-col">
+            <div key={t.name} className="bg-slate-50 border border-gray-100 rounded-2xl p-6 flex flex-col text-left">
               <StarRating count={t.rating} />
-              <blockquote className="mt-4 text-gray-600 text-sm leading-relaxed flex-1">
+              <blockquote className="mt-4 text-gray-600 text-sm leading-relaxed flex-1 text-left">
                 &ldquo;{t.text}&rdquo;
               </blockquote>
               <div className="mt-5 flex items-center gap-3">
@@ -67,7 +67,7 @@ export default function Testimonials() {
                 >
                   {t.name[0]}
                 </div>
-                <div>
+                <div className="text-left">
                   <div className="font-semibold text-sm text-gray-800">{t.name}</div>
                   <div className="text-xs text-gray-600">{t.location} · {t.date}</div>
                 </div>
